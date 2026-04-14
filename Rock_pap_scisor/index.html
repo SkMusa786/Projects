@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEyL2pvYjk1OS1lbGVtZW50LWItMDEzNi14XzEuanBn.jpg"/>
+        </div>
+
+        <div class="choice" id="paper">
+            <img src="data:image/png;base64,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"/>
+        </div>
+
+        <div class="choice" id="scissors">
+            <img src="scissors.png"/>
+        </div>
+    </div>
+
+    <div class="scoreboard">
+        <div class="score">
+            <p id="userScore">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="compScore">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+
+    <script src="first.js"></script>
+</body>
+</html>
